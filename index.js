@@ -117,14 +117,12 @@ async function init() {
 
   write('package.json', JSON.stringify(pkg, null, 2))
 
-  const pkgManager = /yarn/.test(process.env.npm_execpath) ? 'yarn' : 'npm'
-
   console.log(`\nDone. Now run:\n`)
   if (root !== cwd) {
     console.log(`  cd ${path.relative(cwd, root)}`)
   }
-  console.log(`  ${pkgManager === 'yarn' ? `yarn` : `npm install`}`)
-  console.log(`  ${pkgManager === 'yarn' ? `yarn dev` : `npm run dev`}`)
+  console.log(`pnpm install`)
+  console.log(`pnpm run dev`)
   console.log()
 }
 
