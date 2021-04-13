@@ -4,8 +4,8 @@
   "license": "MIT",
   "author": "he-zhiyong",
   "bin": {
-    "create-app": "index.js",
-    "cva": "index.js"
+    "create-package-app": "index.js",
+    "cpa": "index.js"
   },
   "files": [
     "index.js",
