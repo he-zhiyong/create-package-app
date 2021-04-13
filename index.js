@@ -22,7 +22,8 @@ const TEMPLATES = [
 ]
 
 const renameFiles = {
-  _gitignore: '.gitignore'
+  _gitignore: '.gitignore',
+  _npmrc: '.npmrc',
 }
 
 async function init() {
