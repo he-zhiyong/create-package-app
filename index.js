@@ -121,8 +121,8 @@ async function init() {
   if (root !== cwd) {
     console.log(`  cd ${path.relative(cwd, root)}`)
   }
-  console.log(`pnpm install`)
-  console.log(`pnpm run dev`)
+  console.log(`  pnpm install`)
+  console.log(`  pnpm run dev`)
   console.log()
 }
 
